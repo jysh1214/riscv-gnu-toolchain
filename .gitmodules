@@ -1,18 +1,18 @@
 [submodule "binutils"]
 	path = binutils
 	url = https://sourceware.org/git/binutils-gdb.git
-	branch = binutils-2_40-branch
+	branch = binutils-2_42-branch
 [submodule "gcc"]
 	path = gcc
 	url = https://gcc.gnu.org/git/gcc.git
-	branch = releases/gcc-12
+	branch = releases/gcc-13
 [submodule "glibc"]
 	path = glibc
 	url = https://sourceware.org/git/glibc.git
 [submodule "dejagnu"]
 	path = dejagnu
 	url = https://git.savannah.gnu.org/git/dejagnu.git
-	branch = dejagnu-1.6.3
+	branch = master
 [submodule "newlib"]
 	path = newlib
 	url = https://sourceware.org/git/newlib-cygwin.git
@@ -20,7 +20,7 @@
 [submodule "gdb"]
 	path = gdb
 	url = https://sourceware.org/git/binutils-gdb.git
-	branch = gdb-12-branch
+	branch = gdb-14-branch
 [submodule "qemu"]
 	path = qemu
 	url = https://gitlab.com/qemu-project/qemu.git
@@ -39,4 +39,4 @@
 [submodule "llvm"]
 	path = llvm
 	url = https://github.com/llvm/llvm-project.git
-	branch = release/15.x
+	branch = release/17.x
